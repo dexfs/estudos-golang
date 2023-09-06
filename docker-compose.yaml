@@ -9,7 +9,7 @@ services:
       - mysql_golang:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: golang
+      MYSQL_DATABASE: devbook
       MYSQL_USER: golang
       MYSQL_PASSWORD: golang
     ports:
